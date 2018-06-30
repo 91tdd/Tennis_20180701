@@ -6,7 +6,7 @@ namespace Tennis_20180701
     public class TennisTests
     {
         [TestMethod]
-        public void love_all()
+        public void Love_All()
         {
             var tennis = new Tennis();
             var score = tennis.Score();
