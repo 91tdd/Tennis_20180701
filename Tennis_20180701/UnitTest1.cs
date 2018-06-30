@@ -12,5 +12,14 @@ namespace Tennis_20180701
             var score = tennis.Score();
             Assert.AreEqual("Love All", score);
         }
+
+        [TestMethod]
+        public void Fifteen_Love()
+        {
+            var tennis = new Tennis();
+            tennis.FirstPlayerScore();
+            var score = tennis.Score();
+            Assert.AreEqual("Fifteen Love", score);
+        }
     }
 }
